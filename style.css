@@ -1,0 +1,230 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  text-align: center;
+  align-items: center;
+  font-family: "News Cycle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: larger;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(246, 238, 238);
+  margin: 0;
+  padding: 0;
+}
+
+.imgFundo {
+  height: 1000px;
+  background-image: url('./fundo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.conteudo-header {
+  background-color: rgba(238, 243, 243, 0.700);
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 150px;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 20px;
+}
+
+#veganTitulo {
+  color: rgb(22, 140, 22);
+}
+
+i {
+  color: rgb(22, 140, 22);
+}
+
+#menu {
+  text-shadow: #3e3c3c 0.1em 0.1em 0.2em;
+  font-family: "Aboreto", system-ui;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 40px;
+}
+
+h3 {
+  font-family: "Aboreto", system-ui;
+  font-weight: 800;
+  font-style: normal;
+}
+
+#girassol,
+#anturio,
+#amorPerfeito,
+#alisso,
+#lavanda,
+#botaoOuro,
+#amarilis,
+#calla,
+#orquidea,
+#trevo {
+  font-family: "Aboreto", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.salgado1,
+.salgado2,
+.salgado3,
+.salgado4,
+.suco1,
+.suco2,
+.suco3,
+.suco4,
+.doce1,
+.doce2 {
+  width: 600px;
+  height: 350px;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 5px 5px 5px 5px rgba(61, 61, 61, 1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.salgado1:hover,
+.salgado2:hover,
+.salgado3:hover,
+.salgado4:hover,
+.suco1:hover,
+.suco2:hover,
+.suco3:hover,
+.suco4:hover,
+.doce1:hover,
+.doce2:hover {
+  box-shadow: 10px 10px 10px rgba(61, 61, 61, 1);
+}
+
+.salgado1,
+.salgado2,
+.salgado3,
+.salgado4,
+.suco1,
+.suco2,
+.suco3,
+.suco4,
+.doce1,
+.doce2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.textoSalgado1,
+.textoSalgado2,
+.textoSalgado3,
+.textoSalgado4,
+.textoSuco1,
+.textoSuco2,
+.textoSuco3,
+.textoSuco4,
+.textoDoce1,
+.textoDoce2 {
+  flex: 1;
+  padding: 20px;
+}
+
+.imgSalgado1 {
+  background-image: url('./girassol.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+
+.imgSalgado2 {
+  background-image: url('./anturio.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+
+.imgSalgado3 {
+  background-image: url('./amorPerfeito.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+
+.imgSalgado4 {
+  background-image: url('./alisso.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+
+.imgSuco1 {
+  background-image: url('lavanda.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+
+.imgSuco2 {
+  background-image: url('botaoOuro.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+
+.imgSuco3 {
+  background-image: url('amarilis.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+
+.imgSuco4 {
+  background-image: url('calla.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+
+.imgDoce1 {
+  background-image: url('orquidea.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+
+.imgDoce2 {
+  background-image: url('trevoAmarelo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+
+footer {
+  box-shadow: black 0px 10px 20px;
+  background-color: white;
+}
+
+a {
+  color: rgb(22, 140, 22);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(39, 211, 39);
+}
